@@ -1,0 +1,51 @@
+body#image
+{
+    background-image: url(images/background.png);
+}
+#green {
+    background-color: white;
+    border-width:thin 10px;
+    border: white solid;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+}
+#red{
+     background-color: #A8F0F0;
+     text-align: right;
+     margin-top: 10px;
+     overflow: auto;
+}
+#orange{
+    font-size: 14pt;
+}
+#friend{
+    overflow: auto;
+    background-color: #A8F0F0;
+    border: 4px solid #009097;
+    float: left;
+    margin-top:10px;
+    width: 18.5%;
+
+}
+.blue{
+    border: 4px solid #C2E9E9;
+    background-color: #E8FBFB;
+    margin: 10px 0 10px 0 ;
+    overflow: auto;
+
+}
+span{
+    border-bottom: dotted blue;
+    border-width: thin 2px;
+}
+
+div.sidebar{
+    float: right;
+    width: 80%;
+}
+.container:hover >div>div>div>:hover {
+    opacity: 0.5;
+    color: yellow;
+}
