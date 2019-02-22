@@ -38,7 +38,7 @@ body#image
 }
 span{
     border-bottom: dotted blue;
-    border-width: thin 2px;
+    border-width: 2px;
 }
 
 div.sidebar{
